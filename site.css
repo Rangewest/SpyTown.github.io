@@ -5,31 +5,31 @@
 /* width */
 ::-webkit-scrollbar {
     width: 9px;
-  }
+}
   
   /* Track */
-  ::-webkit-scrollbar-track {
-    background: #3C0871;
-  }
+::-webkit-scrollbar-track {
+    background: none;
+}
   
   /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #fff;
-    border-radius: 5px;
-  }
+::-webkit-scrollbar-thumb {
+    background: #3C0871;
+}
   
   /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #555;
-  }
+}
 
 *{
     margin: 0%;
     padding: 0%;
     list-style: none;
-    transition: .5s;
+    transition: .2s;
     box-sizing: border-box;
     font-family: 'Cairo', sans-serif;
+    text-decoration: none;
 }
 nav{
     display: flex;
