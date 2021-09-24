@@ -21,7 +21,9 @@ nav{
 .banner p{
     font-size: 1.25rem;
     font-weight: 300;
-    width: 550px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
 }
 .co-cards{
     display: flex;
