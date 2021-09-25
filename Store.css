@@ -85,7 +85,7 @@ nav{
 .footer a{
     color: #000;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     nav{
         display: flex;
         justify-content: right;

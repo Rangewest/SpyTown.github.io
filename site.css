@@ -271,7 +271,7 @@ li{
 .bank{
     width: 50px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     nav{
         display: flex;
         justify-content: space-around;
