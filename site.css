@@ -274,7 +274,9 @@ li{
 @media screen and (max-width: 600px) {
     nav{
         display: flex;
-        justify-content: right;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: flex-end;
     }
     nav ul{
         width: px;

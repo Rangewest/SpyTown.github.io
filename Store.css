@@ -17,6 +17,8 @@ nav{
 .banner h4{
     font-weight: bold;
     font-size: 45px;
+    position: relative;
+    top: -50px;
 }
 .banner p{
     font-size: 1.25rem;
@@ -24,6 +26,8 @@ nav{
     width: 90%;
     margin: auto;
     margin-top: 10px;
+    top: -50px;
+    position: relative;
 }
 .co-cards{
     display: flex;
@@ -95,9 +99,13 @@ nav{
     .banner{
         height: 60vh;
     }
-    .text h4,.para{
+    .text h4{
         position: relative;
-        top: -80px;
+        top: -140px;
+    }
+    .text .para{
+        position: relative;
+        top: -140px;
     }
     .banner .spytown{
         width: 140%;
