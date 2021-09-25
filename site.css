@@ -283,6 +283,7 @@ li{
     }
     nav ul li{
         font-size: 15px;
+        margin-left: 30px;
     }
     .banner{
         height: 60vh;
