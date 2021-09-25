@@ -31,6 +31,9 @@
     font-family: 'Cairo', sans-serif;
     text-decoration: none;
 }
+body{
+    background: #fff;
+}
 nav{
     display: flex;
     z-index: 999;
@@ -220,6 +223,12 @@ li{
     width: 25%;
     padding: 0 15px;
 }
+.footer-col .links{
+    color: #000;
+}
+.footer-col p{
+    margin: 5px;
+}
 .footer-col3{
     width: 25%;
     padding: 0 15px;
@@ -261,4 +270,34 @@ li{
 }
 .bank{
     width: 50px;
+}
+@media screen and (max-width: 600px) {
+    nav{
+        display: flex;
+        justify-content: right;
+    }
+    nav ul{
+        width: px;
+    }
+    nav ul li{
+        font-size: 15px;
+    }
+    .banner{
+        height: 60vh;
+    }
+    .banner .spytown{
+        width: 140%;
+        position: relative;
+        top: 5px;
+    }
+    .pa img{
+        width: 95%;
+    }
+    .btn{
+        display: none;
+    }
+    .Rul{
+        position: relative;
+        top: -90px;
+    }
 }
