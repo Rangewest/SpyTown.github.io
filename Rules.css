@@ -39,9 +39,47 @@
 }
 .pa img{
     margin-bottom: 20px;
-    width: 900px;
+    width: 100%;
     border-radius: 5px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
 }
 .footer{
     margin: 0;
+}
+.footer a{
+    color: #000;
+}
+@media screen and (max-width: 600px) {
+    nav{
+        display: flex;
+        justify-content: right;
+    }
+    nav ul{
+        width: px;
+    }
+    nav ul li{
+        font-size: 15px;
+    }
+    .banner{
+        height: 60vh;
+    }
+    .banner .spytown{
+        width: 140%;
+        position: relative;
+        top: 5px;
+    }
+    .pa img{
+        width: 95%;
+    }
+    .btn{
+        display: none;
+    }
+    .Rul{
+        position: relative;
+        top: -90px;
+    }
 }
