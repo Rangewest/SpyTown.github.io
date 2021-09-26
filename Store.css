@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 1s;
+}
+nav{
+    top: 0;
+}
+.banner .text{
+    position: relative;
+    top: 300px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+.banner h4{
+    font-weight: bold;
+    font-size: 45px;
+    position: relative;
+    top: -50px;
+}
+.banner p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    top: -50px;
+    position: relative;
+}
+.co-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.cards{
+    width: 311px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 40px;
+    border: 1px solid #000;
+    height: 350px;
+    border-radius: 5px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.card img{
+    width: 230px;
+    height: 130px;
+    background-size: cover;
+    border-radius: 4px;
+}
+.card h4{
+    font-weight: bold;
+    font-size: 23px;
+    color: #fff;
+    margin: auto;
+    width: 180px;
+    text-align: right;
+}
+.card p{
+    font-weight: bold;
+    font-size: 23px;
+    color: rgb(10, 255, 222);
+    margin: auto;
+    width: 180px;
+    text-align: right;
+    margin-top: 10px;
+    position: relative;
+}
+.card h2{
+    font-size: 15px;
+    text-align: right;
+    margin: auto;
+    width: 199px;
+}
+.co-cards span{
+    background-color: blue;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.footer{
+    margin: 0;
+}
+.footer a{
+    color: #000;
+}
+@media screen and (max-width: 900px) {
+    nav{
+        display: flex;
+        justify-content: right;
+    }
+    nav ul{
+        width: px;
+    }
+    nav ul li{
+        font-size: 15px;
+    }
+    header{
+        padding-top: 10px;
+        position: relative;
+    }
+    .banner{
+        height: 60vh;
+    }
+    .text h4{
+        position: relative;
+        top: -140px;
+    }
+    .text .para{
+        position: relative;
+        top: -140px;
+    }
+    .banner .spytown{
+        width: 140%;
+        position: relative;
+        top: 5px;
+    }
+    .pa img{
+        width: 95%;
+    }
+    .btn{
+        display: none;
+    }
+    .Rul{
+        position: relative;
+        top: -90px;
+    }
+}
+@media screen and (max-width: 376px){
+    .banner{
+        height: 60vh;
+    }
+    .banner .text{
+        position: relative;
+        top: 280px;
+        font-size: 10px;
+    }
+    .text h4{
+        font-size: 20px;
+    }
+    .text .para{
+        font-size: 15px;
+    }
+}
