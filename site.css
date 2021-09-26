@@ -87,6 +87,7 @@ li{
     cursor: pointer;
     border-bottom: 2px solid #fff;
     color: #fff;
+    margin-left: 20px;
 }
 .logo{
     width: 90px;
