@@ -69,6 +69,7 @@ header{
     }
     header{
         padding-top: 10px;
+        background-color: none;
     }
     .banner{
         height: 50vh;
