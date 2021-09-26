@@ -98,6 +98,7 @@ nav{
     }
     header{
         padding-top: 10px;
+        position: relative;
     }
     .banner{
         height: 60vh;
@@ -124,5 +125,21 @@ nav{
     .Rul{
         position: relative;
         top: -90px;
+    }
+}
+@media screen and (max-width: 376px){
+    .banner{
+        height: 60vh;
+    }
+    .banner .text{
+        position: relative;
+        top: 280px;
+        font-size: 10px;
+    }
+    .text h4{
+        font-size: 20px;
+    }
+    .text .para{
+        font-size: 15px;
     }
 }

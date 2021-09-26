@@ -66,6 +66,7 @@
     }
     header{
         padding-top: 10px;
+        background-color: #000;
     }
     .banner{
         height: 50vh;
@@ -89,5 +90,16 @@
     .row{
         display: flex;
         justify-content: flex-end;
+    }
+}
+@media screen and (max-width: 376px){
+    .banner{
+        height: 55vh;
+    }
+    .banner .spytown{
+        width: 350px;
+        position: relative;
+        top: 70px;
+        height: 190px;
     }
 }
