@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    transition: 1s;
 }
 nav{
     top: 0;
@@ -31,23 +32,23 @@ nav{
 }
 .co-cards{
     display: flex;
-    position: relative;
-    top: -100px;
-    margin-top: 20px;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 90%;
-    margin: auto;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 .cards{
     width: 311px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .card{
     margin: 40px;
     border: 1px solid #000;
-    height: 300px;
+    height: 350px;
     border-radius: 5px;
     background-color: #000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .card img{
     width: 230px;
@@ -78,6 +79,13 @@ nav{
     text-align: right;
     margin: auto;
     width: 199px;
+}
+.co-cards span{
+    background-color: blue;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
 }
 .footer{
     margin: 0;
