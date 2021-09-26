@@ -64,13 +64,17 @@
     nav ul li{
         font-size: 15px;
     }
+    header{
+        padding-top: 10px;
+    }
     .banner{
-        height: 60vh;
+        height: 50vh;
     }
     .banner .spytown{
-        width: 140%;
+        width: 350px;
         position: relative;
-        top: 5px;
+        top: 100px;
+        height: 190px;
     }
     .pa img{
         width: 95%;
@@ -81,5 +85,9 @@
     .Rul{
         position: relative;
         top: -90px;
+    }
+    .row{
+        display: flex;
+        justify-content: flex-end;
     }
 }

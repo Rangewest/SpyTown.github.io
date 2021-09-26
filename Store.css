@@ -96,6 +96,9 @@ nav{
     nav ul li{
         font-size: 15px;
     }
+    header{
+        padding-top: 10px;
+    }
     .banner{
         height: 60vh;
     }
