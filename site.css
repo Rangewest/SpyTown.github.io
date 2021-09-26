@@ -59,7 +59,6 @@ header{
     margin-left: 30px;
 }
 button{
-    border: 1px solid #000;
     width: 100px;
     position: relative;
     display: flex;
@@ -67,11 +66,10 @@ button{
     font-family: 'Gemunu Libre', sans-serif;
     font-size: 20px;
     height: 30px;
-    border: none;
+    border: 1px solid #fff;
     align-items: center;
     cursor: pointer;
-    box-shadow: 0px 0px 1px 2px;
-    
+    border-radius: 5px;
 }
 ul{
     display: flex;
