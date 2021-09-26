@@ -157,6 +157,7 @@ li{
     background: url(wave.png);
     background-size: 1000px 100px;
     z-index: 99;
+    border: none;
 }
 .wave.wave1{
     animation: animation 30s linear infinite;
