@@ -3,6 +3,9 @@
     margin: 0;
     text-decoration-line: none;
 }
+header{
+    background-color: none;
+}
 .Rul{
     display: flex;
     color: #000;
