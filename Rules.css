@@ -73,14 +73,94 @@ header{
         padding-top: 10px;
         background-color: none;
     }
+    .ham{
+        background-color: #000;
+        height: 35px;
+        width: 45px;
+        position: absolute;
+        display: flex;
+        left: 30px;
+        justify-content: center;
+        border-radius: 5px;
+        top: 10px;
+    }
+    .ham span{
+        width: 20px;
+        height: 3px;
+        background-color: #fff;
+        position:absolute;
+        top: 13px;
+        margin-top: 3px;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    .ham span::before{
+        content: '';
+        position: absolute;
+        top: -9px;
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    .ham span::after{
+        content: '';
+        position: absolute;
+        top: 9px;
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    .linkm{
+        background-color: black;
+        width: 600%;
+        height: 0vh;
+        position: absolute;
+        left: 0px;
+        display: flex;
+        flex-direction: column;
+        top: 40px;
+        border-radius: 5px;
+        transition: 3s;
+    }
+    .linkm.active{
+        height: 20vh;
+    }
+    .linkm ul{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        width: 90%;
+        text-align: right;
+        display: block;
+        visibility: hidden;
+        transition: 0s;
+    }
+    .linkm ul.active{
+        visibility: visible;
+        transition: 0s;
+    }
+    .linkm ul li{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding-right: 10px;
+    } 
+    .linkm ul li:hover{
+        background-color: #fff;
+        color: #000;
+        border-radius: 5px;
+    }
+    header ul{
+        display: none;
+    }
     .banner{
-        height: 50vh;
+        height: 80vh;
     }
     .banner .spytown{
-        width: 350px;
+        width: 600px;
         position: relative;
-        top: 100px;
-        height: 190px;
+        top: 200px;
+        height: 400px;
     }
     .pa img{
         width: 95%;
