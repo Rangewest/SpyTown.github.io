@@ -322,6 +322,19 @@ li{
         border-radius: 5px;
         margin-right: 10px;
     }
+    .ham span.active{
+        display: none;
+    }
+    #close{
+        visibility: hidden;
+        transition: .0s;
+        height: 25px;
+        position: relative;
+        margin-top: 5px;
+    }
+    #close.active{
+        visibility: visible;
+    }
     .ham span::before{
         content: '';
         position: absolute;
@@ -343,9 +356,9 @@ li{
     .linkm{
         background-color: black;
         width: 600%;
-        height: 0vh;
+        height: 160px;
         position: absolute;
-        left: 0px;
+        left: -500px;
         display: flex;
         flex-direction: column;
         top: 40px;
@@ -353,7 +366,7 @@ li{
         transition: .50s;
     }
     .linkm.active{
-        height: 20vh;
+        left: 1px;
     }
     .linkm ul{
         flex-wrap: wrap;
@@ -363,6 +376,7 @@ li{
         display: block;
         visibility: hidden;
         transition: 0s;
+        position: absolute;
     }
     .linkm ul.active{
         visibility: visible;
@@ -378,6 +392,9 @@ li{
         color: #000;
         border-radius: 5px;
     }
+    nav{
+        position: relative;
+    }
     header ul{
         display: none;
     }
@@ -392,8 +409,8 @@ li{
     }
     .banner .spytown{
         width: 600px;
-        position: relative;
-        top: 200px;
+        position: absolute;
+        top: 100px;
         height: 400px;
     }
     .pa img{
