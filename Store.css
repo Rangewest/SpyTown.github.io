@@ -252,13 +252,83 @@ code{
         top: -90px;
     }
 }
-@media screen and (max-width: 376px){
+@media screen and (max-width: 320px){
+    .banner::before{
+        display: none;
+    }
+    .wave{
+        border: none;
+    }
+    header{
+        left: 10px;
+    }
+    nav{
+        margin: 0;
+    }
+    .ham{
+        background-color: #000;
+        height: 35px;
+        width: 45px;
+        position: absolute;
+        display: flex;
+        left: 15px;
+        justify-content: center;
+        border-radius: 5px;
+    }
     .banner{
-        height: 60vh;
+        height: 65vh;
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .banner .spytown{
+        width: 350px;
+        position: relative;
+        height: 190px;
+        top: -10px;
+    }
+    .footer{
+        background-color: #000;
+    }
+    .footer-col{
+        text-align: center;
+        width: 90px;
+        margin: auto;
+        height: 100px;
+        color: #fff;
+    }
+    .footer-col p{
+        margin: auto;
+        color: #fff;
+        font-weight: bold;
+    }
+    .footer-col .links{
+        color: rgb(97, 145, 233);
+        font-weight: bold;
+    }
+    .footer-col i{
+        color: #fff;
+        margin-top: 10px;
+        font-size: 15px;
+        width: 30px;
+        border: none;
+        margin-left: 50px;
+        position: relative;
+        left: -7px;
+    }
+    .footer-col .link{
+        color: #fff;
+        margin-top: 10px;
+        font-size: 15px;
+        border-radius: 50px;
+        width: 10px;
+    }
+    .footer-creater .row{
+        width: 90%;
     }
     .banner .text{
         position: relative;
-        top: 280px;
+        top: 40px;
         font-size: 10px;
     }
     .text h4{

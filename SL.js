@@ -4,5 +4,6 @@ $(document).ready(function(){
         $('.linkm').toggleClass('active')
         $('.linkm ul').toggleClass('active')
         $('#close').toggleClass('active')
+        $('.ham::after').toggleClass('active')
     })
 })

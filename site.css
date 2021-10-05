@@ -26,7 +26,7 @@
     margin: 0%;
     padding: 0%;
     list-style: none;
-    transition: .2s;
+    transition: .5s;
     box-sizing: border-box;
     font-family: 'Cairo', sans-serif;
     text-decoration: none;
@@ -48,8 +48,9 @@ nav{
     align-items: center;
     position: fixed;
     z-index: 9999;
-    background-color: #4B14A4;
+    background-color: #000;
 }
+
 header{
     width: 300px;
     display: flex;
@@ -147,15 +148,7 @@ li{
     overflow: hidden;
     top: -100px;
     position: relative;
-    height: 90vh;
-}
-.banner::before{
-    content: '';
-    position: absolute;
-    top: 10%;
-    width: 100%;
-    height: 100px;
-    background: linear-gradient(to top,#4B14A4,transparent);
+    height: 100vh;
 }
 .spytown{
     height: 50vh;
@@ -218,7 +211,38 @@ li{
         background-position-x: -1000px;
     }
 }
-
+.Main-contain{
+    height: 300px;
+    position: relative;
+    top: -50px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: .5s;
+}
+.main{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    position: relative;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    background: #000;
+    margin: 15px;
+    height: 15%;
+    width: 360px;
+    margin-top: 5px;
+    transition: .5s;
+    padding: 20px;
+    padding-top: 5px;
+    color: #fff;
+    border-radius: 5px;
+}
 .container{
     max-width: 1170px;
     margin: auto;
@@ -233,7 +257,7 @@ li{
     background: #F5F5F5;
     padding: 20px 0;
     text-align: right;
-    margin-top: 400px;
+    margin-top: 500px;
 }
 .footer-col{
     width: 25%;
@@ -245,7 +269,7 @@ li{
 .footer-col p{
     margin: 5px;
 }
-.footer-col3{
+.footer-col{
     width: 25%;
     padding: 0 15px;
     margin-left: 50px;
@@ -430,14 +454,94 @@ li{
         top: -90px;
     }
 }
-@media screen and (max-width: 376px){
+@media screen and (max-width: 320px){
+    .wave{
+        border: none;
+    }
+    header{
+        left: 10px;
+    }
+    nav{
+        margin: 0;
+    }
+    .ham{
+        background-color: #000;
+        height: 35px;
+        width: 45px;
+        position: absolute;
+        display: flex;
+        left: 15px;
+        justify-content: center;
+        border-radius: 5px;
+    }
     .banner{
-        height: 55vh;
+        height: 65vh;
+        display: flex;
+        width: 100%;
+        align-items: center;
     }
     .banner .spytown{
         width: 350px;
         position: relative;
-        top: 70px;
         height: 190px;
+        top: -10px;
+    }
+    .contain{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        background: #000;
+        margin: 15px;
+        height: 15%;
+        width: 360px;
+        margin-top: 5px;
+        transition: .5s;
+        padding: 20px;
+        padding-top: 5px;
+        color: #fff;
+        border-radius: 5px;
+    }
+    .contain code{
+        text-align: right;
+    }
+    .footer{
+        background-color: #000;
+    }
+    .footer-col{
+        text-align: center;
+        width: 90px;
+        margin: auto;
+        height: 100px;
+        color: #fff;
+    }
+    .footer-col p{
+        margin: auto;
+        color: #fff;
+        font-weight: bold;
+    }
+    .footer-col .links{
+        color: rgb(97, 145, 233);
+        font-weight: bold;
+    }
+    .footer-col i{
+        color: #fff;
+        margin-top: 10px;
+        font-size: 15px;
+        width: 30px;
+        border: none;
+        margin-left: 50px;
+        position: relative;
+        left: -7px;
+    }
+    .footer-col .link{
+        color: #fff;
+        margin-top: 10px;
+        font-size: 15px;
+        border-radius: 50px;
+        width: 10px;
+    }
+    .footer-creater .row{
+        width: 90%;
     }
 }
