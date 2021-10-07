@@ -206,7 +206,7 @@ header{
     }
     .banner .spytown{
         width: 600px;
-        position: relative;
+        position: absolute;
         top: 100px;
         height: 400px;
     }
@@ -225,13 +225,13 @@ header{
         justify-content: flex-end;
     }
 }
-@media screen and (max-width: 3200px){
+@media screen and (max-width: 320px){
     .wave{
         border: none;
     }
     header{
         left: 10px;
-        top: 4px;
+        top: 10px;
     }
     nav{
         margin: 0;
